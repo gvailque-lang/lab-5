@@ -1,0 +1,39 @@
+/*
+AI Usage:
+Propmt: Can you check the output and button:hover
+Response: ChatGPT reordered it in its correct listing
+My changes: I just changed the color
+Resoning: I wanted to see if I was correct with my code
+What code is AI: Its the button:hover and output
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #f0f8ff;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
